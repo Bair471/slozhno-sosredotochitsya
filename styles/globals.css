@@ -40,3 +40,7 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.page-title {
+  font-size: 9.813rem;
+}
