@@ -2,4 +2,131 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000028;
+  color: var(--text-color);
+  font-size: 18px;
+  display: grid;
+  font-family: var(--font-family);
+
+}
+.header__theme-menu-button {
+  cursor: pointer;
+  line-height: 1.125rem;
+  justify-content: center;
+  text-transform: lowercase;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding: 0.094rem 0.813rem;
+  border: 0;
+  background-color: transparent;
+  color: var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+  pointer-events: none;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button:focus {
+  border: none;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__title {
+  margin-block: 50px;
+  color: var(--header-title-color);
+  font-weight: 700;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-family: var(--font-family);
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  background-size: cover;
+  width: clamp(355px, 50%, 491px);
+  justify-self: end;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto 0;
+  line-height: 23.4px;
+}
+
+.header__contain {
+  padding: 200px 0 180px;
+  display: grid;
+}
+
+.header {
+  display: grid;
+  position: relative;
+  grid-template-rows: 1fr auto;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px) 0;
+  min-height: 100vh;
+}
+
+.decorate-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.decorated-zone::before {
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  top: 20px;
+  right: 20px;
+}
+
+.decorated-zone::after {
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+  bottom: 20px;
+  left: 20px;
+}
+
+.rec {
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+    right: 27px;
+    display: flex;
+    color: var(--accent-color);
+    gap: 10px;
+    flex-direction: row;
+    /* align-content: stretch; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rec::after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+  background: var(--accent-color, #ff0070);
+  inline-size: 9px;
+  block-size: 9px;
 }
