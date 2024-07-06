@@ -108,7 +108,7 @@
 }
 
 .header__text {
-  padding: 274px 0 120px;;
+  padding: 274px 0 120px;
   display: flex;
   flex-direction: column;
   gap: 114px;
@@ -213,7 +213,7 @@ main {
   margin-bottom: 80px;
 }
 
-.decrease-concentration * {
+.decrease-concentration > div {
   flex: 1 0 calc(33.33% - 20px); 
   box-sizing: border-box; 
 }
