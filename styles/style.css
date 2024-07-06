@@ -64,7 +64,7 @@
 
 .header__theme-menu-list {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   flex-direction: row;
   justify-content: center;
 }
@@ -108,7 +108,7 @@
 }
 
 .header__text {
-  padding: 274px 0 142px;;
+  padding: 274px 0 120px;;
   display: flex;
   flex-direction: column;
   gap: 114px;
@@ -314,7 +314,7 @@ main {
 
 @media (width <=768px) {
   .header__theme-menu {
-    padding-top: 170px;
+    padding-top: 180px;
     place-self: center end;
   }
 
@@ -396,7 +396,7 @@ main {
 
   .header__theme-menu {
     place-self: center end;
-    padding-top: 50px;
+    padding-top: 84px;
   }
   .main__section-title {
     width: 100%
@@ -407,7 +407,7 @@ main {
   }
 
   .header__text {
-    padding: 94px 0;
+    padding: 58px 0;
     gap: 58px;
   }
 
