@@ -212,6 +212,7 @@ main {
   gap: 20px;
   margin-bottom: 80px;
 }
+
 .decrease-concentration * {
   flex: 1 0 calc(33.33% - 20px); 
   box-sizing: border-box; 
