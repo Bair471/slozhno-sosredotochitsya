@@ -9,26 +9,10 @@
     --rec-dec-visibilities: visible;
 
     /* Dark theme variables */
-    --primary-color-dark-theme: #DB00FF; /* Hero header text, header blocks background, alternative header */
-    --primary-color-shadow-dark-theme: #FF0070; /* Hero header text shadow */
-    --secondary-color-dark-theme: #000028; /* Whole page background, header blocks text */
-    --accent-color-dark-theme: #FF0070; /* Accent color for additional styling if needed */
-    --main-section-title-color-dark-theme: #FF0070; /* Subheader text color */
-    --description-color-dark-theme: #F1B2CE; /* Description block text */
-    --background-color-dark-theme: #000028;
-    --background-dark-theme: url(../images/cover-image-dark.png);
-    --nav-color-dark-theme: #FF0070;
-    --nav-colorfaded-dark-theme: rgba(255, 0, 112, 0.4);
-
-    /* Light theme variables */
-    --primary-color-light-theme: #FFC2E6; /* Hero header text, header blocks background, alternative header */
-    --primary-color-shadow-light-theme: #FF0271FF; /* Hero header text shadow */
-    --secondary-color-light-theme: #353430; /* Whole page background, header blocks text */
-    --accent-color-light-theme: #FF8DCB; /* Accent color for additional styling if needed */
-    --main-section-title-color-light-theme: #353430; /* Subheader text color */
-    --description-color-light-theme: #353430; /* Description block text */
-    --background-color-light-theme: #FFF1F7;
-    --background-light-theme: url(../images/cover-image-light.png);
-    --nav-color-light-theme: #353430;
-    --nav-colorfaded-light-theme:rgba(50, 49, 45, 0.6);
-}
+    --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
+    --secondary-color: #000028; /* Whole page background, header blocks text */
+    --accent-color: #FF0070; /* Accent color for additional styling if needed */
+    --description-color: #F1B2CE; /* Description block text */
+    --background-image: url(../images/cover-image-dark.png);
+    --nav-colorfaded: rgba(255, 0, 112, 0.4);
+  }

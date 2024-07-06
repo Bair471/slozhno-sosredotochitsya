@@ -1,29 +1,23 @@
 .page.theme_light {
-  --primary-color: var(--primary-color-light-theme);
-  --primary-color-shadow: var(--primary-color-shadow-light-theme);
-  --secondary-color: var(--secondary-color-light-theme);
-  --accent-color: var(--accent-color-light-theme);
-  --description-color: var(--description-color-light-theme);
+  --primary-color: #FFC2E6; /* Hero header text, header blocks background, alternative header */
+  --secondary-color: #353430; /* Whole page background, header blocks text */
+  --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
+  --main-section-title-color: #353430; /* Subheader text color */
+  --description-color: #353430; /* Description block text */
+  --background-color: #FFF1F7;
   --background-image: url(../images/cover-image-light.png);
-  --background-color: var(--background-color-light-theme);
-  --main-section-title-color: var(--main-section-title-color-light-theme);
-  --nav-color: var(--nav-color-light-theme);
-  --rec-dec-visibilities: hidden;
-  --nav-colorfaded:var(--nav-colorfaded-light-theme);
+  --nav-colorfaded:rgba(50, 49, 45, 0.6);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-      --primary-color: var(--primary-color-light-theme);
-      --primary-color-shadow: var(--primary-color-shadow-light-theme);
-      --secondary-color: var(--secondary-color-light-theme);
-      --accent-color: var(--accent-color-light-theme);
-      --description-color: var(--description-color-light-theme);
-      --background-image: url(../images/cover-image-light.png);
-      --background-color: var(--background-color-light-theme);
-      --main-section-title-color: var(--main-section-title-color-light-theme);
-      --nav-color: var(--nav-color-light-theme);
-      --rec-dec-visibilities: hidden;
-      --nav-colorfaded:var(--nav-colorfaded-light-theme);
+    --primary-color: #FFC2E6; /* Hero header text, header blocks background, alternative header */
+    --secondary-color: #353430; /* Whole page background, header blocks text */
+    --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
+    --main-section-title-color: #353430; /* Subheader text color */
+    --description-color: #353430; /* Description block text */
+    --background-color: #FFF1F7;
+    --background-image: url(../images/cover-image-light.png);
+    --nav-colorfaded:rgba(50, 49, 45, 0.6);
   }
 }

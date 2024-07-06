@@ -1,27 +1,21 @@
 .page.theme_dark {
-  --primary-color: var(--primary-color-dark-theme);
-  --primary-color-shadow: var(--primary-color-shadow-dark-theme);
-  --secondary-color: var(--secondary-color-dark-theme);
-  --accent-color: var(--accent-color-dark-theme);
-  --description-color: var(--description-color-dark-theme);
+  --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
+  --secondary-color: #000028; /* Whole page background, header blocks text */
+  --accent-color: #FF0070; /* Accent color for additional styling if needed */
+  --description-color: #F1B2CE; /* Description block text */
+  --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: var(--background-color-dark-theme);
-  --main-section-title-color: var(--main-section-title-color-dark-theme);
-  --nav-color: var(--nav-color-dark-theme);
-  --nav-colorfaded: var(--nav-colorfaded-dark-theme);
+  --nav-colorfaded: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --primary-color: var(--primary-color-dark-theme);
-      --primary-color-shadow: var(--primary-color-shadow-dark-theme);
-      --secondary-color: var(--secondary-color-dark-theme);
-      --accent-color: var(--accent-color-dark-theme);
-      --description-color: var(--description-color-dark-theme);
-      --background-image: url(../images/cover-image-dark.png);
-      --background-color: var(--background-color-dark-theme);
-      --main-section-title-color: var(--main-section-title-color-dark-theme);
-      --nav-color: var(--nav-color-dark-theme);
-      --nav-colorfaded: var(--nav-colorfaded-dark-theme);
+    --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
+    --secondary-color: #000028; /* Whole page background, header blocks text */
+    --accent-color: #FF0070; /* Accent color for additional styling if needed */
+    --description-color: #F1B2CE; /* Description block text */
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+    --nav-colorfaded: rgba(255, 0, 112, 0.4);
     }
   }
