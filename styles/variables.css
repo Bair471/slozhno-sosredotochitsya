@@ -15,4 +15,6 @@
     --description-color: #F1B2CE; /* Description block text */
     --background-image: url(../images/cover-image-dark.png);
     --nav-colorfaded: rgba(255, 0, 112, 0.4);
+    --decor-zone:#FF0070;
+    --rec-dec-visibilities: visible;
   }
