@@ -1,45 +1,29 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-/* .page.theme_light {
-  --text-color: var(--color-black-2, #353430);
-  --accent-color: var(--color-pink-4, #ff8dcb);
-  --brand-color: var(--color-pink-3, #ffc2e6);
-  --highlight-color: var(--color-black-2, #353430);
-  --secondary-color: var(--color-black-2, #353430);
-  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-
-  --page-background-color: var(--color-pink-1, #fff1f7);
-  --page-background-image: url("../images/cover-image-light.png");
-
-  --rec-decor-visibility: hidden;
-
-    --button-bg-color: #060606;
-    --button-text-color: #000000;
-    --button-border-color: #020202;
-
+.page.theme_light {
+  --primary-color: var(--primary-color-light-theme);
+  --primary-color-shadow: var(--primary-color-shadow-light-theme);
+  --secondary-color: var(--secondary-color-light-theme);
+  --accent-color: var(--accent-color-light-theme);
+  --description-color: var(--description-color-light-theme);
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: var(--background-color-light-theme);
+  --main-section-title-color: var(--main-section-title-color-light-theme);
+  --nav-color: var(--nav-color-light-theme);
+  --rec-dec-visibilities: hidden;
+  --nav-colorfaded:var(--nav-colorfaded-light-theme);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --text-color: var(--color-black-2, #353430);
-    --accent-color: var(--color-pink-4, #ff8dcb);
-    --brand-color: var(--color-pink-3, #ffc2e6);
-    --highlight-color: var(--color-black-2, #353430);
-    --secondary-color: var(--color-black-2, #353430);
-    --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-
-    --page-background-color: var(--color-pink-1, #fff1f7);
-    --page-background-image: url("../images/cover-image-light.png");
-
-    --rec-decor-visibility: hidden;
+      --primary-color: var(--primary-color-light-theme);
+      --primary-color-shadow: var(--primary-color-shadow-light-theme);
+      --secondary-color: var(--secondary-color-light-theme);
+      --accent-color: var(--accent-color-light-theme);
+      --description-color: var(--description-color-light-theme);
+      --background-image: url(../images/cover-image-light.png);
+      --background-color: var(--background-color-light-theme);
+      --main-section-title-color: var(--main-section-title-color-light-theme);
+      --nav-color: var(--nav-color-light-theme);
+      --rec-dec-visibilities: hidden;
+      --nav-colorfaded:var(--nav-colorfaded-light-theme);
   }
-  .button {
-    --button-bg-color: #000000;
-    --button-text-color: #000000;
-    --button-border-color: #060606;
-  }
-} */
+}

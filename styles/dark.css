@@ -1,35 +1,27 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-/* .page.theme_dark {
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
-
-  --rec-decor-visibility: visible;
+.page.theme_dark {
+  --primary-color: var(--primary-color-dark-theme);
+  --primary-color-shadow: var(--primary-color-shadow-dark-theme);
+  --secondary-color: var(--secondary-color-dark-theme);
+  --accent-color: var(--accent-color-dark-theme);
+  --description-color: var(--description-color-dark-theme);
+  --background-image: url(../images/cover-image-dark.png);
+  --background-color: var(--background-color-dark-theme);
+  --main-section-title-color: var(--main-section-title-color-dark-theme);
+  --nav-color: var(--nav-color-dark-theme);
+  --nav-colorfaded: var(--nav-colorfaded-dark-theme);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: var(--color-pink-2, #f1b2ce);
-    --brand-color: var(--color-purple-1, #db00ff);
-    --secondary-color: var(--color-purple-2, #ff0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-    --accent-color: var(--color-purple-2, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
-
-    --page-background-color: var(--color-black-1, #000028);
-    --page-background-image: url("../images/cover-image-dark.png");
-
-    --rec-decor-visibility: visible;
+      --primary-color: var(--primary-color-dark-theme);
+      --primary-color-shadow: var(--primary-color-shadow-dark-theme);
+      --secondary-color: var(--secondary-color-dark-theme);
+      --accent-color: var(--accent-color-dark-theme);
+      --description-color: var(--description-color-dark-theme);
+      --background-image: url(../images/cover-image-dark.png);
+      --background-color: var(--background-color-dark-theme);
+      --main-section-title-color: var(--main-section-title-color-dark-theme);
+      --nav-color: var(--nav-color-dark-theme);
+      --nav-colorfaded: var(--nav-colorfaded-dark-theme);
+    }
   }
-} */
