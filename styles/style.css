@@ -301,6 +301,7 @@ box-sizing: border-box;
   place-items: center;
   min-height: 668px;
   height: 100vh;
+  margin-top: 10px;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -320,6 +321,7 @@ box-sizing: border-box;
 
   .header__subtitle {
     width: 364px;
+    margin-top: 44px;
   }
 
   .header__text {
@@ -390,8 +392,13 @@ box-sizing: border-box;
     padding: 10px;
   }
 
+  .header__subtitle {
+    margin-top: 0px;
+  }
+
   .header__theme-menu-list {
     gap: 10px;
+    padding-right: 10px;
   }
 
   .header__theme-menu {
