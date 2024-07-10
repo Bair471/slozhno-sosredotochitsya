@@ -15,9 +15,16 @@
   position: relative;
   height: 100vh;
   min-height: 668px;
-  grid-template-rows: 1fr min-content 1fr;
-  align-content: center;
-  padding: 20px 20px 20px 0;
+  grid-template-rows: min-content 1fr min-content; /* Изменение шаблона строк */
+}
+
+.header__text {
+  grid-row: 2 / 3; /* Занимает вторую строку в grid */
+}
+
+.header__theme-menu {
+  grid-row: 1 / 2; /* Занимает первую строку в grid */
+  align-self: end; /* Выравнивание внизу */
 }
 
 .decorated-zone::after,
@@ -47,7 +54,7 @@
   position: absolute;
   text-transform: uppercase;
   top: 20px;
-  right: 27px;
+  right: 30px;
   color: var(--accent-color, #FF0070);
 }
 
@@ -57,9 +64,9 @@
   background-color: var(--accent-color, #FF0070);
   margin-inline-start: 10px;
   border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  box-shadow: 0 0 4px 2px var(--accent-color, #FF0070);
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 0 4px 3px var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-list {
@@ -67,6 +74,7 @@
   gap: 10px;
   flex-direction: row;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .header__theme-menu-button {
@@ -108,7 +116,7 @@
 }
 
 .header__text {
-  padding: 274px 0 120px;
+  padding: 254px 20px 120px;
   display: flex;
   flex-direction: column;
   gap: 114px;
@@ -227,7 +235,7 @@ box-sizing: border-box;
 
 .text-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
+  text-shadow: 2px 2px 0 var(--link-color, #FF0070);
 }
 
 .text-link:hover {
@@ -285,7 +293,7 @@ box-sizing: border-box;
   grid-area: title;
 }
 
-.header__gallery {
+.title-decoroation {
   background-color: var(--accent-color, #FF0070);
   color: var(--secondary-color, #000028);
   font-weight: 700;
@@ -419,8 +427,8 @@ box-sizing: border-box;
   }
 
   .rec {
-    right: 16px;
-    top: 12px;
+    right: 19px;
+    top: 10px;
   }
 
   .decorated-zone::after {
