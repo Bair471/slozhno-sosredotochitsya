@@ -116,10 +116,10 @@
 }
 
 .header__text {
-  padding: 254px 20px 120px;
+  padding: 270px 20px 120px 0;
   display: flex;
   flex-direction: column;
-  gap: 114px;
+  gap: 98px;
 }
 
 .header__subtitle {
@@ -309,7 +309,7 @@ box-sizing: border-box;
   place-items: center;
   min-height: 668px;
   height: 100vh;
-  margin-top: 10px;
+  margin-top: 25px;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -333,7 +333,7 @@ box-sizing: border-box;
   }
 
   .header__text {
-    padding: 169px 0 217px;
+    padding: 169px 20px 217px 0;
   }
 
   .header__theme-menu-list {
@@ -422,7 +422,7 @@ box-sizing: border-box;
   }
 
   .header__text {
-    padding: 58px 0;
+    padding: 38px 0;
     gap: 58px;
   }
 
