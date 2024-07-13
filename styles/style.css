@@ -18,7 +18,7 @@
   grid-template-rows: min-content 1fr min-content; /* Изменение шаблона строк */
 }
 
-.header__text {
+.header__title {
   grid-row: 2 / 3; /* Занимает вторую строку в grid */
 }
 
@@ -66,7 +66,7 @@
   border-radius: 50%;
   width: 9px;
   height: 9px;
-  box-shadow: 0 0 4px 3px var(--accent-color, #FF0070);
+  box-shadow: 0 0 4px 2px var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-list {
@@ -75,6 +75,7 @@
   flex-direction: row;
   justify-content: center;
   padding-top: 20px;
+  margin-bottom: 134px;
 }
 
 .header__theme-menu-button {
@@ -108,18 +109,12 @@
 
 .header__title {
   display: flex;
+  align-items: center;
   color: var(--primary-color, #DB00FF);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
-}
-
-.header__text {
-  padding: 270px 20px 120px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 98px;
 }
 
 .header__subtitle {
@@ -128,6 +123,8 @@
   align-self: flex-end;
   margin: auto 0;
   line-height: 23.4px;
+  margin: 0 20px 134px 0;
+  justify-self: end;
 }
 
 .title-decor {
@@ -169,7 +166,7 @@
   color: var(--secondary-color, #000028);
   line-height: 23.4px;
   font-size: var(--main-font-size, 18px);
-  font-family: var(--main-font-family, "IBM Plex Sans", sans-serif);
+  font-family: var(--font-family, "IBM Plex Mono", sans-serif);
 }
 
 main {
@@ -239,7 +236,7 @@ box-sizing: border-box;
 }
 
 .text-link:hover {
-  border-block-end: 1px solid var(--accent-color, #FF0070);
+  border-block-end: 1px solid var(--description-color, #F1B2CE);
 }
 
 .text-link:focus {
@@ -323,21 +320,19 @@ box-sizing: border-box;
 
 @media (width <=768px) {
   .header__theme-menu {
-    padding-top: 180px;
+    padding-top: 192px;
     place-self: center end;
+    margin-right: 20px;
   }
 
   .header__subtitle {
     width: 364px;
-    margin-top: 44px;
-  }
-
-  .header__text {
-    padding: 169px 20px 217px 0;
+    margin: 0 20px 183px 0;
   }
 
   .header__theme-menu-list {
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .decrease-concentration-reasons {
@@ -398,23 +393,24 @@ box-sizing: border-box;
 }
 
 @media (width <=760px) {
-  
-  .header {
-    padding: 10px;
-  }
 
   .header__subtitle {
-    margin-top: 0px;
+    margin-right: 10px;
+    margin-top: 55px;
+    margin-left: 10px;
   }
 
   .header__theme-menu-list {
     gap: 10px;
     padding-right: 10px;
+    padding-top: 0px;
+    margin-bottom: 66.5px;
   }
 
   .header__theme-menu {
     place-self: center end;
     padding-top: 84px;
+    margin-right: 0px;
   }
   .main__section-title {
     width: 100%
@@ -424,13 +420,8 @@ box-sizing: border-box;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .header__text {
-    padding: 38px 0;
-    gap: 44px;
-  }
-
   .rec {
-    right: 19px;
+    right: 10px;
     top: 10px;
   }
 
@@ -440,7 +431,7 @@ box-sizing: border-box;
   }
 
   .decorated-zone::before {
-    right: 10px;
+    right: 0px;
     top: 10px;
   }
 
