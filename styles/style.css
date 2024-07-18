@@ -394,7 +394,6 @@ main {
 
   .footer {
     margin-top: 61px;
-    height: 100vh;
   }
 }
 
@@ -492,14 +491,5 @@ main {
 
   .footer {
     margin-top: 39px;
-  }
-}
-
-@media (height >=1025px) {
-  .header__subtitle {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto 0;
   }
 }
