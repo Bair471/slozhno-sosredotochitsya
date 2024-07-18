@@ -16,5 +16,6 @@
     --background-image: url(../images/cover-image-dark.png);
     --nav-colorfaded: rgba(255, 0, 112, 0.4);
     --decor-zone:#FF0070;
-    --link-color: #f61f70;
+    --shadow-color: #f61f70;
+    --link-color: #f1b2ce;
   }

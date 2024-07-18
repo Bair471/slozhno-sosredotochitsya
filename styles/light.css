@@ -9,7 +9,8 @@
   --nav-colorfaded:rgba(50, 49, 45, 0.6);
   --decor-zone: #353430;
   --rec-dec-visibilities: hidden;
-  --link-color: #f98ccc;
+  --shadow-color: #f98ccc;
+  --link-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,6 +25,7 @@
     --nav-colorfaded:rgba(50, 49, 45, 0.6);
     --decor-zone: #353430;
     --rec-dec-visibilities: hidden;
-    --link-color: #f98ccc;
+    --shadow-color: #f98ccc;
+    --link-color: #353430;
   }
 }
