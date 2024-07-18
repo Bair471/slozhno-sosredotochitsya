@@ -15,11 +15,11 @@
     position: relative;
     height: 100vh;
     min-height: 668px;
-    grid-template-rows: 1fr min-content 1fr; 
+    grid-template-rows: 1fr min-content 1fr;
   }
   
   .header__theme-menu {
-    grid-row: 1; 
+    grid-row: 1;
   }
   
   .decorated-zone::after,
@@ -488,8 +488,8 @@
   @media (height >= 1025px) {
     .header__subtitle {
         justify-content: center;
-        align-items: center; 
-        display: flex; 
-        margin: auto 0; 
+        align-items: center;
+        display: flex;
+        margin: auto 0;
     }
 }
