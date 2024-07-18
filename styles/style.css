@@ -390,7 +390,7 @@
       left: 20px;
     }
     .footer {
-      margin-top: 89px;
+      margin-top: 61px;
     }
   }
   
@@ -482,6 +482,9 @@
       background-size: cover;
       font-size: var(--main-font-size, 18px);
       margin-bottom: 10px;
+    }
+    .footer {
+      margin-top: 39px;
     }
   }
 
